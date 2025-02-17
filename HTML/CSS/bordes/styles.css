@@ -1,0 +1,14 @@
+div{
+    width: 50%;
+    text-align: center;
+    background:  yellow;
+    border-top: 50px rgb(255, 0, 0) solid;
+    border-bottom: 50px red solid;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 50px;
+}
+img{
+    width: 50%;
+}

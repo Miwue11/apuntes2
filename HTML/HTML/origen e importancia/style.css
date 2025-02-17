@@ -1,0 +1,25 @@
+
+body{
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ac63634d;
+}
+pre{
+    display:inline;
+    color: darkred;
+    font-size: 1.2em;
+    font-family: monospace;
+}
+p{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin: 1em 0px;
+    display: inline;
+}
+h2{
+    color: rgb(200, 40, 40);
+}
+li{
+    font-size: 1.2em;
+}

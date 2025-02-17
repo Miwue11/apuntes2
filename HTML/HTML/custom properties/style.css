@@ -1,0 +1,31 @@
+:root{
+    --primary-color: indigo;
+    --secondary-color: blue;
+    --tertiary-color: white;
+    --quaternary-color: black;
+    --quinary-color: grey;
+    --accent-color: yellow;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 10px;
+    padding: 16px;
+    border: none;
+}
+button:hover{
+    background-color: var(--quinary-color);
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid var(--quinary-color);
+    accent-color: var(--quinary-color);
+}
+/* properties pueden ser modificadas a traves de js */

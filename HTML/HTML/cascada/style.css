@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+
+#page-title {
+    color: blue;
+}
+
+.title {
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+    color: green;
+}

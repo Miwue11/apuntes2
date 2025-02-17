@@ -1,0 +1,51 @@
+:root{
+    --primary: #845EC2;
+    --secondary: #D65DB1;
+    --tertiary: #FF6F91;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; 
+    /* asi mejor. */
+    background-color: var(--tertiary);
+    justify-content:center;
+    align-items:center;
+
+}
+
+.box{
+    background-color: var(--primary);
+    color: var(--tertiary);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    width: 50px;
+}
+
+
+/* flexbox palyground (herramienta para jugar con flexbox y trastear cositas) */
+
+.box-1{
+order: 3;
+}
+
+.box-2{
+    order:9
+}
+
+.box-3{
+    order:4
+}
+
+.box-4{
+    order:11;
+}
+
+.box-5{
+    
+}

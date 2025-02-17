@@ -1,0 +1,55 @@
+-git init: inicia el repositorio de GIT 
+
+-git --version: verifica la version de GIT 
+
+-cd /c/User/hr2mi/OneDrive/Escritorio/miprueba: entra en el directorio de esa carpeta dentro de la ruta de la misma
+
+-ls: mira todo los directorios que hay dentro de la carpeta en la que estamos
+
+-ls -a: muestra el interior del directorio
+
+-..: devuelve al directorio anterior de la carpeta
+
+-mkdir ****: crea la carpeta que nombres 
+code .: inicia el VSC
+
+-git status: comprueba el estado de los archivos, si estan ya en el STAGE, si hay algun COMMIT, etc...
+
+
+-git add (archivo.txt//*.txt//.(mala practica)//): añade al STAGE el archivo seleccionado
+
+-git commit -m "commit inicial": manda desde STAGE a COMMIT 
+
+-rm (archivo): elimina el archivo seleccionado
+
+
+-git rm (archivo): lo manda directo al STAGE
+
+
+-git restore (archivo): lo devuelve del STAGE al inicio de eliminacion
+
+
+-git restore: lo saca de eliminados
+
+-mv (nombre del archivo q quieres cambiar) (nombre nuevo del archivo)
+
+-git mv (archivo a cambiar) (archivo cambiado)
+
+-git diff: muestra en pantalla todo los cambios que se estan haciendo a un archivo que este en el STAGE
+
+-git status -s: muestra el estado de los archivos en el proceso de modificar
+
+-git log: muestra el historial de sucesos en el git 
+
+git log --oneline: muestra el historial pero mas sencillo de leer con los marcadores q hayamos puesto
+
+
+-git branch: dice en que rama estamos 
+
+
+- git checkout -b (ramab): iniciar una nueva rama
+
+-cat (archivo): muestra el contenido del archivo
+
+-git merge (rama que queremos traer al main): trae la rama a la rama principal (master)
+

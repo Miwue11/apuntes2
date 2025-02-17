@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    color: indianred;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.title{
+    color: indigo;
+}
+span{
+    color: red;
+}
+#page-title{
+    color: rgba(0, 76, 255, 0.594);
+}

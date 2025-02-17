@@ -1,0 +1,16 @@
+p{
+color:red;
+font-family:Montserrat;
+font-size: 13px;
+font-weight: 500;
+font-style: normal;
+text-align:start;
+text-decoration:dashed none;
+line-height: 1.5;
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+h1{
+text-align: center;
+}

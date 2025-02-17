@@ -1,0 +1,27 @@
+html{
+    font-size: 20px;
+}
+
+div{
+    background: #ffbcbc;
+    padding: 10%;
+    font-family: sans-serif;
+    border-left: 5px solid #411717be;
+}
+h1{
+    margin: 0;
+    font-size: 24px;
+    color: #411717be;
+    
+}
+span{
+    color: #999;
+    font-size: 23px;
+    font-weight: 100;
+}
+p{
+    color: #555;
+    font-size:1rem;
+    font-style: italic;
+    margin: auto;
+}

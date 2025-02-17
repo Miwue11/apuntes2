@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="" method="post"> 
+        <h1>FORMULARIO</h1>
+        <img src="./imagenes/marshadow.png" alt="Imagen de Marshadow">
+        <div>
+            <label for="nombre">como te llamas</label>
+                <input type="text" placeholder="escribe tu nombre" required minlength="3" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="email">introduce tu Email</label> 
+            <input type="email" placeholder="escribe tu email" required minlength="9" name="email" id="email">
+        </div>
+        <div>
+            <label for="PSS">Introduce tu contraseña</label>
+            <input type="password" placeholder="escribe tu contraseña" required name="password" value="" id="PSS">
+        </div>
+        
+        <div>
+            <p>dejanos un comentario:</p>
+            <label for="description"></label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="TC">
+                acepta los terminos y condiciones
+            </label> 
+            <input type="checkbox" required id="TC">
+        </div>
+
+        <div>
+            <label for="hombre">hombre</label>
+            <input type="radio" name="genero" id="hombre" value="hombre"> 
+        <label for="mujer">mujer</label>
+            <input type="radio" name="genero" id="mujer" value="mujer">
+            
+        </div>
+        
+        <div>
+            <button type="submit" required value="enviar" id="genero">
+        </div>
+        
+    </form>
+</body>
+</html>
