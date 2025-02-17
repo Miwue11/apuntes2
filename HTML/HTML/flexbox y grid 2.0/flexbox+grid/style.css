@@ -1,0 +1,32 @@
+:root{
+    --size:1rem;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    padding: var(--size);
+    gap: var(--size);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem var(--size);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--size);
+    padding: var(--size);
+}
+
+.content div{
+    background-color: #f1f1f1;
+    padding: var(--size);
+    border-radius: .5rem;
+    text-align: center;
+}
